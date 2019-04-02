@@ -1,0 +1,21 @@
+.slider {
+  max-width: 600px;
+  width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+
+  &-wrap {
+    display: flex;
+    transition: transform 0.3s;
+  }
+
+  &-slide {
+    flex-shrink: 0;
+    width: 100%;
+
+    img {
+      width: 100%;
+      vertical-align: middle;
+    }
+  }
+}
